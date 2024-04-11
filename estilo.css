@@ -1,0 +1,344 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+
+:root{
+    --primary-color: #7e775b;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Cinzel", serif!important;
+    background-color: rgb(236, 233, 233)!important;
+    animation: fadeInAnimation 2s;
+      
+}
+
+
+#nav{  
+    background-color: var(--primary-color);  
+    padding: 0px;
+}
+
+#navbarNavDropdown{
+    margin-bottom: 10px;
+    
+}
+.carousel-item > img{
+    height: auto;
+}
+
+.carousel-indicators > button{
+    height: 15px!important;
+    width: 15px!important;
+    border-radius: 100%;
+    position: relative;
+    top: 15px;   
+
+}
+
+
+
+
+@keyframes fadeInAnimation {
+    
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;    
+    opacity: 0;
+    transition: opacity 3s ease;
+}
+
+.card-visible {
+    opacity: 1;
+}
+
+.btn-primary{
+    background-color: var(--primary-color)!important;
+    border: none!important;
+    border-radius: 0px!important;
+   
+}
+
+#footer{
+    background-color: var(--primary-color);
+    color: white;
+}
+
+
+
+
+.navbar-toggler{
+    border: none!important;
+}
+
+#w-btn{
+    background-image: url('/Img/Whatsapp_logo_PNG7.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: none;
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    transition: 3s!important;
+    font-size: 80px!important;
+}
+
+#body_precos{
+    background-color: var(--primary-color)!important;
+    color: white!important;
+}
+
+@media all and (max-width:768px){
+    
+#navbarNavDropdown{
+   
+    margin-top: 10px;
+    padding: 10px; 
+    gap: 10px;  
+    color: white!important;
+   
+}
+#img_casa{
+        display: none;
+    }
+.navbar-toggler{
+    border: none!important;
+}
+
+#w-btn{
+    background-image: url('/Img/Whatsapp_logo_PNG7.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: none;
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 50px;
+    right: 0px;
+
+}
+}
+
+@media all and (max-width:575px){
+#navbarNav{
+    background-color: var(--primary-color);
+    opacity: 0.75;         
+    padding: 0%;        
+    margin: 15px 0px;
+    text-align: center;
+    
+    
+}
+.nav-item a{
+    
+    font-size: 18px!important;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white!important;     
+    
+    }
+
+.container-fluid .p-0 {
+    display: flex;
+    justify-content: center;
+}   
+
+#drop{
+    background-color: var(--primary-color);
+    opacity: 0.90;
+    color: white!important;    
+    margin-top: 22px;    
+    display: none;    
+    text-align: center;
+    margin-left: 50px!important;
+    
+}
+
+.navbar-toggler-icon{
+    width: 50px!important;
+}
+
+#icone_nav{
+    background-color: var(--primary-color);
+    opacity: 0.90;
+}
+
+  
+}
+
+.nav-link {
+    font-weight: bolder;
+    font-size: 18px!important;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--primary-color)!important;
+    padding: 10px 0px;
+    margin: 0px 20px;
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+    
+    
+    
+  }
+  
+  .nav-link:hover {
+    opacity: 1;
+    color: white;
+  }
+  
+  .nav-link::before {
+    transition: 500ms;
+    height: 2px;
+    content: "";
+    position: absolute;
+    background-color: var(--primary-color);
+  }
+  
+
+.nav-link-ltr::before {
+    width: 0%;
+    bottom: 5px;
+}
+
+.nav-link-ltr:hover::before {
+    width: 100%;
+    margin: auto;
+}
+
+#img_frente{
+    background-image: url('/Img/pano_vnm1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    width: 100vw;
+    height: 100vh;
+    color: var(--primary-color);
+    
+}
+
+#titulo{   
+    margin-top: 375px;  
+    font-weight: bolder;  
+}
+
+.btn_voltar{
+    display: flex;
+    justify-content: center;
+}
+#btn-voltar{
+    border: none;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#drop{
+    background-color: var(--primary-color);
+    opacity: 0.75;
+    color: white!important;
+    margin-left: 30px;
+    position: absolute;
+    display: none;
+    
+}
+
+.nav-item:hover #drop{
+    background-color: var(--primary-color);
+    opacity: 0.75;
+    color: white!important;
+    margin-left: 30px;
+    position: absolute;
+    display: block;
+}
+
+.navbar-toggler{
+    border: none!important;
+}
+
+.navbar-toggler-icon{
+    width: 35px;
+    display: none;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 0 !important;
+}
+
+
+.toggler-icon{
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    display: block;
+    transition: all 0.2s;
+}
+
+
+.middle-bar{
+    margin: 5px auto;
+}
+
+
+.navbar-toggler .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+}
+
+.navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .toggler-icon {
+    background-color: white;
+}
+
+.nav-link:hover{
+    font: weight 500px;;
+    box-shadow: rgba(215, 215, 217, 0.2) 0px 5px 9px 0px;
+    border-radius: 100px;
+
+}
+
+
+
+
+
