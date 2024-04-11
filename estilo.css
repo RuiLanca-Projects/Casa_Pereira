@@ -82,7 +82,7 @@ body{
 }
 
 #w-btn{
-    background-image: url('/Img/Whatsapp_logo_PNG7.png');
+    background-image: url('Whatsapp_logo_PNG7.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -223,7 +223,7 @@ body{
 }
 
 #img_frente{
-    background-image: url('/Img/pano_vnm1.jpg');
+    background-image: url('pano_vnm1.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 
